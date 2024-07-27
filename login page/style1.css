@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image:linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,1.5)),url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.header{
+    margin-top: 130px;
+    margin-left: 152px;
+}
+.start{
+    font-size: 19px;
+    color: rgb(20, 18, 18);
+}
+.account{
+    font-size: 62px;
+    margin:3px 0 9px 0;
+}
+
+.member{
+    font-size: 19px;
+    color: rgb(21, 19, 19);
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 148px;
+    margin-top: 23px;
+    width: 438px;
+    background-color: rgb(242, 177, 188);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(1, 6, 3);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}

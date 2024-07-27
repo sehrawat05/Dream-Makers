@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html{
+    background-image: url("../intro/bg.png");
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px 20px;
+    
+    height: 102px;
+}
+
+.navbar .logo {
+    margin: 0 31px;
+    height: 31px;
+    
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 155px;
+    height: 93px;
+    margin: 36px;
+    border-radius: 50%;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.navbar .search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 582px;
+    height:51px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.navbar .search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    height:51px;
+}
+
+.navbar .search-bar button:hover {
+    background-color: #777;
+}
+
+.navbar .cart {
+    
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    
+}
+.order-cart img{
+    
+    color:white;
+}
+.cart img{
+    background-color:white;
+    border-radius: 9px;
+}
+nav.market-things {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 158px;
+    margin:36px 47px;
+    padding: 10px 20px;
+    margin-bottom: 63px;
+    
+}
+.market-things img{
+    
+    margin: 9px 35px;
+    height: 131px;
+    border: 2px solid white;
+    border-radius: 30px
+    
+}
+.market-things a{
+    
+    height: 120px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+    padding-top: 26px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 49px;
+    padding: 20px;
+    width:90%;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    height: 297px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.block img {
+    width: 55%;
+    height: 86%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+    object-fit: cover;
+    border-radius: 10px;
+}
+.block p {
+    margin-top: 10px;
+    text-align: center;
+}
